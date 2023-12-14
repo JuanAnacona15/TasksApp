@@ -1,0 +1,21 @@
+.tableSubjects{
+    display: grid;
+    position: relative;
+    grid-template-rows: repeat(7, 60px);
+    grid-template-columns: repeat(5, 160px);
+    background-color: #E8A9A9;
+    column-gap: 5px;
+    row-gap: 5px;
+    border-radius: 10px;
+    border: 3px solid black;
+    width: max-content;
+    height: min-content;
+    padding: 4px;
+}
+
+.buttonSubject{
+    background-color: #090580;
+    color: #F4D3D3;
+    border-radius: 5px;
+    border: solid black;
+}
